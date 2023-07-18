@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../components/styles/skills.module.css";
+import classes from "../components/styles/Skills.module.css";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { FaReact } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";

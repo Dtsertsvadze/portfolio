@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../components/styles/contact.module.css";
+import classes from "../components/styles/Contact.module.css";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {

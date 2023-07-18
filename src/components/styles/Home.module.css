@@ -1,0 +1,50 @@
+.home-container {
+  height: 100vh;
+  color: white;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.myLinks {
+  display: flex;
+  color: #0aff9d;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-10%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #0aff9d;
+  padding: 2rem;
+}
+
+.name {
+  font-size: 1.5em;
+  color: #0aff9d;
+}
+
+.socials {
+  display: flex;
+  font-size: 2.2rem;
+  gap: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color: #0aff9d;
+}

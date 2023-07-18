@@ -1,0 +1,79 @@
+.contact {
+  height: 100vh;
+  border-top: 2px solid #0aff9d;
+  padding-top: 5rem;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-header {
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+
+.dot {
+  color: #0aff9d;
+}
+
+.contact-text {
+  max-width: 500px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.contact-links {
+  text-decoration: none;
+  color: #0aff9d;
+}
+
+.email {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-bottom: 5rem;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name, .contact-email, .contact-email-text {
+  font-size: 1rem;
+  outline: none;
+  padding: 5px;
+}
+.contact-email-text {
+  height: 100px;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid #0aff9d;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 400px;
+}
+
+form button {
+  border: none;
+  font-size: 1.3rem;
+  max-width: 100px;
+  background: transparent;
+  color: #0aff9d;
+  border: 1px solid #0aff9d;
+}
+
+form button:hover {
+  color: white;
+  background: #0aff9d;
+  cursor: pointer;
+}

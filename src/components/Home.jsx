@@ -15,7 +15,7 @@ const Home = () => {
         <h2>
           <span className={classes.name}>Data Tsertsvadze</span>
         </h2>
-        <h3>Begginer Front-end Developer</h3>
+        <h3>Beginner Front-end Developer</h3>
       </div>
       <div className={classes.socials}>
         <div className={classes.myLinks}>

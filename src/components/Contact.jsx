@@ -22,10 +22,10 @@ const confirmHandler = e =>{
         </a>{" "}
         or{" "}
         <a
-          href="https://www.facebook.com/tsertsvadzedata/"
+          href="https://www.instagram.com/datacercvadze/"
           className={classes["contact-links"]}
         >
-          Facebook
+          Instagram
         </a>{" "}
         if that's more your speed.
       </div>

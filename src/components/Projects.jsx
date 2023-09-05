@@ -2,7 +2,7 @@ import React from "react";
 import classes from "../components/styles/Projects.module.css";
 import { AiOutlineGithub } from "react-icons/ai";
 import img1 from "../assets/todo.png";
-import img2 from "../assets/movies.png";
+import img2 from "../assets/movie.png";
 import img3 from "../assets/calculator.png";
 import img4 from "../assets/tic-tac-toe.png";
 
@@ -11,21 +11,25 @@ const PROJECT_API = [
     name: "Calculator app",
     githubLink: "https://github.com/Dtsertsvadze/calculator",
     img: img3,
+    live: "https://dtsertsvadze.github.io/calculator/",
   },
   {
     name: "Movie app",
-    githubLink: "https://github.com/Dtsertsvadze/calculator",
+    githubLink: "https://github.com/Dtsertsvadze/movie-app",
     img: img2,
+    live: "https://dtsertsvadze.github.io/movie-app/",
   },
   {
     name: "Todo app",
-    githubLink: "https://github.com/Dtsertsvadze/calculator",
+    githubLink: "https://github.com/Dtsertsvadze/todo-app",
     img: img1,
+    live: "https://dtsertsvadze.github.io/todo-app/",
   },
   {
     name: "Tic Tac Toe",
-    githubLink: "https://github.com/Dtsertsvadze/calculator",
+    githubLink: "https://github.com/Dtsertsvadze/tic-tac-toe",
     img: img4,
+    live: "https://dtsertsvadze.github.io/tic-tac-toe/",
   },
 ];
 
@@ -35,13 +39,16 @@ const projects = PROJECT_API.map((i) => (
       <img className={classes["project-img"]} src={i.img} alt={i.name} />
     </div>
     <div className={classes["project-link"]}>
-      <div className={classes["project-name"]}>{i.name}</div>
-      <div className={classes["project-line"]}></div>
-      <div>
-        <a href={i.githubLink}>
-          <AiOutlineGithub className={classes["github-icon"]} />
-        </a>
-      </div>
+      <a className={classes.link} href={i.githubLink}>
+        <div className={classes["project-name"]}>{i.name}</div>
+        <AiOutlineGithub className={classes["github-icon"]} />
+      </a>
+    </div>
+    <div className={classes["live-server-wrapper"]}>
+      <a className={classes["live-server"]} href={i.live}>
+        Live server
+      </a>
+      <div className={classes["project-line1"]}></div>
     </div>
   </div>
 ));

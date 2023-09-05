@@ -27,12 +27,7 @@ const Home = () => {
         >
           <AiOutlineInstagram />
         </a>
-        <a
-          className={classes.links}
-          href="https://www.facebook.com/tsertsvadzedata/"
-        >
-          <AiOutlineFacebook />
-        </a>
+
         <a
           className={classes.links}
           href="https://www.linkedin.com/in/davit-tsertsvadze-781914226/"

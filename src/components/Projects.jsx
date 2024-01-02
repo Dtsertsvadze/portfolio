@@ -5,6 +5,7 @@ import img1 from "../assets/todo.png";
 import img2 from "../assets/movie.png";
 import img3 from "../assets/calculator.png";
 import img4 from "../assets/tic-tac-toe.png";
+import img5 from "../assets/tea.png"
 
 const PROJECT_API = [
   {
@@ -31,6 +32,12 @@ const PROJECT_API = [
     img: img4,
     live: "https://dtsertsvadze.github.io/tic-tac-toe/",
   },
+  {
+    name: "Tea Shop",
+    githubLink: "https://github.com/Dtsertsvadze/tea-shop",
+    img: img5,
+    live: "https://dtsertsvadze.github.io/tea-shop/",
+  }
 ];
 
 const projects = PROJECT_API.map((i) => (
